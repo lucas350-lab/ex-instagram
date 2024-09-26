@@ -20,6 +20,11 @@ body{
 header{
     display: flex;
     flex-direction: column;
+    gap: 30px;
+    text-decoration: none;
+    font-size: 25px;
+
+    
 }
 .publi{
     width: 400px;
@@ -28,5 +33,64 @@ header{
 }
 #bt{
     display: flex;
+    gap: 320px;
+}
+.sug{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.bt2{
+    display: flex;
+      
+}
+.elli{
+    display: flex;
+    gap: 20px;
+}
+#div1{
+    display: flex;
+    gap: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    width: 110vw;
+    
+}
+p{
+    width: 15vw;
+}
+.img5{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+#bt3{
     justify-content: space-between;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.p1{
+    padding-left: 70px;
+    color: black;
+}
+.bt5{
+    display: flex;
+    gap: 240px;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+.button1{
+    color: blue;
 }
